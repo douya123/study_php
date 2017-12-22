@@ -1,0 +1,39 @@
+@charset "utf-8";
+* {margin: 0; padding: 0;}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.header {
+    width: auto;
+    height: 150px;
+    border: 2px solid #cccccc;
+    margin: 10px 0;
+}
+.list {
+    width: 600px;
+    height: 514px;
+    float: right;
+    border: 2px solid #cccccc;
+}
+.user {
+    width: 340px;
+    height: 250px;
+    float: left;
+    border: 2px solid #cccccc;
+    margin: 0 0 10px 0;
+}
+.picture {
+    width: 340px;
+    height: 250px;
+    float: left;
+    border: 2px solid #cccccc;
+}
+.footer {
+    clear: both;
+    width: auto;
+    height: 60px;
+    margin: 10px 0;
+    text-align: center;
+}

@@ -1,0 +1,85 @@
+@charset "utf-8";
+* {margin: 0; padding: 0;}
+ul {
+    list-style: none;
+}
+h2 {
+    font-size: 14px; 
+    background: #eeeeee;
+    height: 25px;
+    line-height: 25px;
+    /* padding-left: 10px; */
+    text-indent: 10px;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.header {
+    width: auto;
+    height: 150px;
+    border: 2px solid #cccccc;
+    margin: 10px 0;
+}
+    .header h1 {
+        font-size: 12px;
+        width: 210px;
+        height: 39px;
+        background: rgba(255, 34, 52, 0.8);
+        display: block;
+        margin: 40px 0 0 40px;
+        overflow: hidden;
+    }
+    .header h1 a {
+        display: block;
+        width: 210px;
+        height: 39px;
+        padding-top: 39px;
+        /* text-indent: -99999999px; */
+        /* 我在h1里使用了overflow来隐藏，解决chrome中text-indent无效的 */
+    }
+    .header ul {
+        /* background: red; */
+        text-align: right;
+        padding: 30px 50px 0 0;
+    }
+    .header ul li {
+        display: inline;
+    }
+    .header ul li a {
+        text-decoration: none;
+    }
+    .header ul li a:hover {
+        color: red;
+    }
+.list {
+    width: 600px;
+    height: 514px;
+    float: right;
+    border: 2px solid #cccccc;
+}
+.user {
+    width: 340px;
+    height: 250px;
+    float: left;
+    border: 2px solid #cccccc;
+    margin: 0 0 10px 0;
+}
+.picture {
+    width: 340px;
+    height: 250px;
+    float: left;
+    border: 2px solid #cccccc;
+}
+.footer {
+    clear: both;
+    width: auto;
+    height: 60px;
+    margin: 10px 0;
+}
+    .footer p {
+        font-size: 12px;
+        letter-spacing: 5px;
+        padding: 5px 0 0 0;
+    }
